@@ -1,23 +1,25 @@
+/* Resets Generales*/
+
 * {
-	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
 	background-image: url(../img/2.svg);
 	background-size: cover;
 	background-position: center center;
-	height: 100vh;
 	font-family: 'Barlow', sans-serif;
-	font-weight: 600;
 	font-size: 16px;
 }
 
 a {
+	list-style: none;
 	text-decoration: none;
 	font-family: 'Advent Pro', sans-serif;
 	font-weight: bold;
+	color: $color-2;
 }
 
 h1 {
@@ -34,6 +36,7 @@ p {
 }
 
 ul {
+	text-decoration: none;
 	list-style: none;
 	font-family: 'Advent Pro', sans-serif;
 }

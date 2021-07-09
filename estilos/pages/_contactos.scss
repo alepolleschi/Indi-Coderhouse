@@ -5,7 +5,7 @@
 	align-items: center;
 }
 .contact-info {
-	color: black;
+	color: $color-2;
 	max-width: 500px;
 	line-height: 65px;
 	padding-left: 50px;
@@ -21,14 +21,13 @@
 	margin-right: 50px;
 	flex: 1;
 	h2 {
-		color: black;
+		color: $color-2;
 		text-align: center;
 		font-size: 35px;
-		text-transform: uppercase;
 		margin-bottom: 30px;
 	}
 	.text-box {
-		background: #F2E6FD;
+		background: $color-1;
 		color: black;
 		border: none;
 		width: calc(50% - 10px);
@@ -44,7 +43,7 @@
 		}
 	}
 	textarea {
-		background: #F2E6FD;
+		background: $color-1;
 		color: black;
 		border: none;
 		width: 100%;
@@ -60,7 +59,7 @@
 	}
 	.send-btn {
 		float: right;
-		background: #F2E6FD;
+		background: $color-1;
 		color: black;
 		border: none;
 		width: 120px;

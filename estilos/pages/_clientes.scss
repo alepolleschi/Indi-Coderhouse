@@ -82,7 +82,7 @@
 			transition: all 0.5s ease;
 			&:hover {
 				color: black;
-				border-color: #F2E6FD;
+				border-color: $color-1;
 				background: linear-gradient(375deg, transparent, transparent);
 			}
 		}
