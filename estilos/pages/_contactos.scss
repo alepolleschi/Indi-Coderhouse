@@ -95,3 +95,22 @@
 		}
 	}
 }
+
+@media screen and (max-width: 950px) {
+	.contact-section {
+		flex-direction: column;
+	}
+	.contact-info {
+		margin: 30px 50px;
+		font-size: 16px;
+	}
+	.contact-form {
+		margin: 30px 50px;
+		h2 {
+			font-size: 30px;
+		}
+		.text-box {
+			width: 100%;
+		}
+	}
+}
